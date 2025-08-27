@@ -8,6 +8,17 @@ import { useThemeMode } from "@/context/ThemeRegistry";
 export default function Navbar() {
   const { mode, toggleTheme } = useThemeMode();
 
+  const handleResumeClick = () => {
+    // Open PDF in new tab
+    window.open("/Rajvardhan_Jadhav.pdf", "_blank", "noopener,noreferrer");
+
+    // Trigger download
+    const link = document.createElement("a");
+    link.href = "/Rajvardhan_Jadhav.pdf";
+    link.download = "Rajvardhan_Jadhav.pdf";
+    link.click();
+  };
+
   return (
     <AppBar position="static">
       <Toolbar sx={{ justifyContent: "space-between" }}>
@@ -20,6 +31,12 @@ export default function Navbar() {
           <Button color="inherit" href="/projects">Projects</Button>
           <Button color="inherit" href="/skills">Skills / Tools</Button>
           <Button color="inherit" href="/contact">Contact</Button>
+
+          {/* Resume Button */}
+          <Button color="inherit" onClick={handleResumeClick}>
+            Resume
+          </Button>
+
           <IconButton color="inherit" onClick={toggleTheme}>
             {mode === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
