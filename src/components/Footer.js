@@ -31,7 +31,7 @@ export default function Footer() {
       <Box sx={{ display: "flex", gap: 2, flexWrap: "wrap", justifyContent: "center" }}>
         <IconButton
           aria-label="GitHub"
-          onClick={() => window.open("https://github.com/rajvardhanj", "_blank")}
+          onClick={() => window.open("https://github.com/raj8888", "_blank")}
           sx={{ color: isDark ? "#fff" : "#000" }}
           size="small"
         >
@@ -40,7 +40,7 @@ export default function Footer() {
 
         <IconButton
           aria-label="LinkedIn"
-          onClick={() => window.open("https://www.linkedin.com/in/rajvardhanj/", "_blank")}
+          onClick={() => window.open("https://www.linkedin.com/in/rajvardhan-jadhav-81a5011b4/", "_blank")}
           sx={{ color: isDark ? "#0ea5e9" : "#0ea5e9" }}
           size="small"
         >
