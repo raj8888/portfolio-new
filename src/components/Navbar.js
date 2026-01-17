@@ -10,12 +10,12 @@ export default function Navbar() {
 
   const handleResumeClick = () => {
     // Open PDF in new tab
-    window.open("/Rajvardhan_Jadhav.pdf", "_blank", "noopener,noreferrer");
+    window.open("/Rajvardhan_Jadhav_Resume.pdf", "_blank", "noopener,noreferrer");
 
     // Trigger download
     const link = document.createElement("a");
-    link.href = "/Rajvardhan_Jadhav.pdf";
-    link.download = "Rajvardhan_Jadhav.pdf";
+    link.href = "/Rajvardhan_Jadhav_Resume.pdf";
+    link.download = "Rajvardhan_Jadhav_Resume.pdf";
     link.click();
   };
 

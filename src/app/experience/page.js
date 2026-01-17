@@ -27,13 +27,14 @@ const experiences = [
     tech: "Next.js, React, Redux, Material UI, Node.js, Express.js, MongoDB, Redis",
   },
   {
-    title: "Software Engineer (DevOps & Platform)",
-    company: "Health Vectors",
-    date: "Jun 2025 – Present",
-    description:
-      "Led deployments and production support by setting up CI/CD pipelines and automating infrastructure with Docker and Ansible. Managed cloud resources on Azure, optimized server performance with Nginx, and implemented monitoring and logging for high availability.",
-    tech: "Azure, Docker, Ansible, Nginx, GitLab, Shell Scripting, Production Support",
-  },
+  title: "Software Engineer (DevOps & Platform)",
+  company: "Health Vectors",
+  date: "Jun 2025 – Present",
+  description:
+    "Supported production deployments and ensured high availability of live systems. Worked with Azure cloud resources, Nginx performance tuning, monitoring, and logging, while improving security through Safeline WAF and Wazuh SIEM integration.",
+  tech: "Azure, Docker, Ansible, Nginx, GitLab, Shell Scripting, Wazuh (SIEM), Safeline (WAF), Production Support",
+}
+,
 ];
 
   return (

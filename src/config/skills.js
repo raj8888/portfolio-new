@@ -34,8 +34,10 @@ export const skillCategories = [
     skills: [
       { name: "Docker", level: 85, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
       { name: "Nginx", level: 80, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" },
-      { name: "Ansible", level: 75, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" },
+      { name: "Ansible", level: 50, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" },
+      { name: "Wazuh", level: 75, img: "https://wazuh.com/wp-content/themes/wazuh-v3/assets/images/trademark-and-brand-policy/Wazuh-logo-dark-backgroud.png" },
       { name: "Azure", level: 78, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+      { name: "SafeLine", level: 78, img: "https://demo.waf.chaitin.com:9443/assets/pro-logo-light-CFgRysyY.png" },
       { name: "Git", level: 90, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
       { name: "GitHub", level: 90, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
       { name: "GitLab", level: 88, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" },
@@ -50,7 +52,6 @@ export const skillCategories = [
     skills: [
       { name: "System Design", level: 75, img: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png" },
       { name: "Problem Solving", level: 85, img: "https://cdn-icons-png.flaticon.com/512/3004/3004613.png" },
-      { name: "Testing (Jest)", level: 78, img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" },
       { name: "Agile & Scrum", level: 80, img: "https://cdn-icons-png.flaticon.com/512/1055/1055646.png" },
     ],
   },
