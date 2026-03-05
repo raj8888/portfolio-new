@@ -27,7 +27,7 @@ const experiences = [
     tech: "Next.js, React, Redux, Material UI, Node.js, Express.js, MongoDB, Redis",
   },
   {
-  title: "Software Engineer (DevOps & Platform)",
+  title: "Software Engineer",
   company: "Health Vectors",
   date: "Jun 2025 – Present",
   description:
